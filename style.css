@@ -893,6 +893,20 @@ footer {
   }
 }
 
+@media (max-width: 430px) {
+  .container.body-content {
+    margin-top: 20px; /* slightly smaller */
+  }
+
+  .hero-section {
+    margin: 0;
+    padding-top: 20px; /* reduced from 56px */
+    height: calc(100vh - 50px); /* accounts for navbar height */
+    display: flex;
+    align-items: center; /* keeps hero content vertically balanced */
+  }
+}
+
 @media (max-width: 768px) {
   .navbar-nav {
     text-align: center;
@@ -975,7 +989,8 @@ footer {
 
   .hero-section {
     margin: -56px 0 0 0;
-    padding-top: 56px;
+    padding-top: 20px;
+    height: calc(100vh - 56px);
   }
 
   .stats-section {
