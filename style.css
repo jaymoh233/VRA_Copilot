@@ -905,9 +905,37 @@ footer {
     display: flex;
     align-items: center; /* keeps hero content vertically balanced */
   }
+
+  .vra-logo {
+    height: 40px; /* slightly bigger for visibility */
+  }
+
+  .navbar-toggler {
+    padding: 2px 6px; /* make button smaller */
+  }
+
+  .navbar-toggler-icon {
+    width: 20px; /* reduce hamburger size */
+    height: 20px;
+    background-size: 20px 20px; /* force SVG inside to scale */
+  }
 }
 
 @media (max-width: 768px) {
+  .vra-logo {
+    height: 40px; /* slightly bigger for visibility */
+  }
+
+  .navbar-toggler {
+    padding: 2px 6px; /* make button smaller */
+  }
+
+  .navbar-toggler-icon {
+    width: 20px; /* reduce hamburger size */
+    height: 20px;
+    background-size: 20px 20px; /* force SVG inside to scale */
+  }
+
   .navbar-nav {
     text-align: center;
     margin-top: 1rem;
@@ -978,6 +1006,20 @@ footer {
 }
 
 @media (max-width: 480px) {
+  .vra-logo {
+    height: 40px; /* slightly bigger for visibility */
+  }
+
+  .navbar-toggler {
+    padding: 2px 6px; /* make button smaller */
+  }
+
+  .navbar-toggler-icon {
+    width: 20px; /* reduce hamburger size */
+    height: 20px;
+    background-size: 20px 20px; /* force SVG inside to scale */
+  }
+
   .services-container,
   .about-container {
     padding: 0 1rem;
